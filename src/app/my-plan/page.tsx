@@ -20,7 +20,7 @@ function MyPlanContent() {
 
   const list = tab === "plan" ? plan : saved;
 
-  // duration/calories: low -> high, rating: high -> low
+ 
   const sorted = useMemo(
     () =>
       [...list].sort((a, b) =>
