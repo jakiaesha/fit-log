@@ -189,7 +189,7 @@ function MyPlanContent() {
   );
 }
 
-// useSearchParams must be wrapped in Suspense for Next.js production builds
+
 export default function MyPlanPage() {
   return (
     <Suspense fallback={null}>
