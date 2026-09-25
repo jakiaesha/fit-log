@@ -203,7 +203,6 @@ function MyPlanContent() {
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRouter"])();
     const params = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useSearchParams"])();
     const [sortBy, setSortBy] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("duration");
-    // The tab now comes from the URL: /my-plan or /my-plan?tab=saved
     const tab = params.get("tab") === "saved" ? "saved" : "plan";
     const list = tab === "plan" ? plan : saved;
     // duration/calories: low -> high, rating: high -> low

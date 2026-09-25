@@ -15,7 +15,7 @@ function MyPlanContent() {
   const params = useSearchParams();
   const [sortBy, setSortBy] = useState<Sort>("duration");
 
-  // The tab now comes from the URL: /my-plan or /my-plan?tab=saved
+ 
   const tab: Tab = params.get("tab") === "saved" ? "saved" : "plan";
 
   const list = tab === "plan" ? plan : saved;
