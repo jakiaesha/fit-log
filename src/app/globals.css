@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@plugin "daisyui";
+@theme inline {
+  --font-display: var(--font-oswald), sans-serif;
+}
+@theme inline {
+  --font-display: var(--font-oswald), sans-serif;
+}
