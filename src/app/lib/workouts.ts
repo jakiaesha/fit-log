@@ -1,5 +1,4 @@
-export const API_URL = "https://api.abcz.workers.dev/api/fitlog"; // confirm this
-
+export const API_URL = "https://api.abcz.workers.dev/api/fitlog"; 
 export type Workout = {
   id: string;
   name: string;
