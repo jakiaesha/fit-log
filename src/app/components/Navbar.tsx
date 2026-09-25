@@ -47,7 +47,7 @@ export default function Navbar() {
         {/* Right: badges (both go to /my-plan) */}
         <div className="flex items-center gap-3 text-xs text-white/80">
           <Link href="/my-plan" className="flex items-center gap-1.5">
-            Plan
+            PLAN
             <span className="grid h-5 min-w-5 place-items-center rounded-full bg-[#ccff00] px-1.5 text-[11px] font-bold text-black">
               {plan.length}
             </span>
